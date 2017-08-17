@@ -1,5 +1,5 @@
 document.write('\
     <div class="footer container-fluid">\
-        <span class="text-muted">Place sticky footer content here.</span>\
+        <span class="text-muted">Website and layout website by Nicolas Sobczak</span>\
     </div>'
 );
