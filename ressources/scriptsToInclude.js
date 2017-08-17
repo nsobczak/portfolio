@@ -9,7 +9,5 @@ document.write('\
     crossorigin="anonymous"></script>\
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"\
             integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"\
-            crossorigin="anonymous"></script>\
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->\
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>'
+            crossorigin="anonymous"></script>'
 );
