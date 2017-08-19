@@ -14,15 +14,43 @@ document.write('\
         </div>\
 \
         <div id="navbarSupportedContent" class="navbar-collapse collapse">\
-            <ul class="nav navbar-nav mr-auto">\
-\
-                <li class="nav-item active">\
-                    <a class="nav-link" href="index.html">Home (infos)<span class="sr-only"></span></a>\
-                </li>\
-                <li class="nav-item">\
-                    <a class="nav-link" href="skills.html">Skills</a>\
-                </li>\
-                <li class="nav-item">\
+            <ul class="nav navbar-nav mr-auto">'
+);
+
+
+// Active tab handling
+var currentLocation = window.location.toString();
+var n = currentLocation.lastIndexOf("\/") + 1;
+var currentPage = currentLocation.slice(n, -5);
+console.log(currentPage);
+
+document.write('\
+                <li class='
+);
+if (currentPage === 'index') document.write('"nav-item active"');
+else document.write('"nav-item"');
+
+document.write('\
+                >\
+        <a class="nav-link" href="index.html">Home (infos)<span class="sr-only"></span></a>\
+    </li>\
+    <li class='
+);
+if (currentPage === 'skills') document.write('"nav-item active"');
+else document.write('"nav-item"');
+
+document.write('\
+                >\
+        <a class="nav-link" href="skills.html">Skills</a>\
+    </li>\
+    <li class='
+);
+if (currentPage === 'projects') document.write('"nav-item active"');
+else document.write('"nav-item"');
+
+
+document.write('\
+                >\
                     <a class="nav-link" href="projects.html">Projects</a>\
                 </li>\
                 <!-- <li class="nav-item"> -->\
@@ -34,3 +62,4 @@ document.write('\
     </div>\
 </nav>'
 );
+
