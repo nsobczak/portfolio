@@ -9,7 +9,6 @@ body {
     margin-bottom: 60px;
 }
 
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -20,11 +19,46 @@ body {
     background-color: #E2F0D6;
 }
 
-
 /*======================================*/
 
 h1, h2, h3, h4, h5, h6 {
     color: #173D48;
 }
 
+/*======================================*/
+#skills-page{
+    background-color: yellow;
+}
 
+.nav-tabs {
+    background-color: #E2F0D6;
+}
+
+.tab-content {
+    background-color: #3BBDBD;
+    color: #fff;
+    padding: 5px
+}
+
+.nav-tabs > li > a {
+    color: #173D48;
+    border: medium none;
+}
+
+.nav-tabs > active {
+    background-color: #3BBDBD;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: #173D48;
+    border: medium none;
+    border-radius: 0;
+    color: #3BBDBD;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    background-color: #3BBDBD;
+    color: #E2F0D6;
+}
