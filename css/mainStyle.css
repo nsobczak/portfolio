@@ -7,6 +7,7 @@ body {
     padding: 40px 0px 0px 0px;
     color: black;
     margin-bottom: 60px;
+    background-color: #173D54;
 }
 
 .footer {
@@ -22,38 +23,42 @@ body {
 /*======================================*/
 
 h1, h2, h3, h4, h5, h6 {
-    color: #173D48;
+    color: #E2F0D6;
 }
 
 /*======================================*/
-#skills-page{
-    background-color: yellow;
-}
+
 
 .nav-tabs {
-    background-color: #E2F0D6;
+    background-color: #02F0D6;
+    border-bottom: none;
 }
 
 .tab-content {
     background-color: #3BBDBD;
     color: #fff;
-    padding: 5px
+    padding: 5px;
+    border-top: 2px solid #02F0D6;
+    border-left: 1px solid #02F0D6;
+    border-right: 1px solid #02F0D6;
+    padding: 10px;
 }
+
 
 .nav-tabs > li > a {
     color: #173D48;
-    border: medium none;
+    border-bottom: none;
 }
 
-.nav-tabs > active {
-    background-color: #3BBDBD;
+.nav-tabs > li > a:focus {
+    border-bottom: none;
 }
 
 .nav-tabs > li > a:hover {
     background-color: #173D48;
-    border: medium none;
-    border-radius: 0;
+    border-color: #3BBDBD;
     color: #3BBDBD;
+    border-bottom: none;
 }
 
 .nav-tabs > li.active > a,
@@ -61,4 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-tabs > li.active > a:hover {
     background-color: #3BBDBD;
     color: #E2F0D6;
+    border-bottom: none;
 }
+

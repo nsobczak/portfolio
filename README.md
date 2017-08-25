@@ -13,6 +13,7 @@ Portfolio website
 
 ### Colors
 
+- general page background color: #173D54
 - dark blue : #173D48
 - light blue : #3BBDBD
 - light yellow : #E2F0D6
