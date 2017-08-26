@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .tab-content {
     background-color: #3BBDBD;
-    color: #fff;
+    color: #ecfafb;
     padding: 5px;
     border-top: 2px solid #02F0D6;
     border-left: 1px solid #02F0D6;
@@ -66,6 +66,33 @@ h1, h2, h3, h4, h5, h6 {
 .nav-tabs > li.active > a:hover {
     background-color: #3BBDBD;
     color: #E2F0D6;
+    font-size: large;
     border-bottom: none;
 }
 
+
+
+.nav-pills > li > a {
+    color: #173D48;
+    border-bottom: none;
+}
+
+.nav-pills > li > a:focus {
+    border-bottom: none;
+}
+
+.nav-pills > li > a:hover {
+    background-color: #173D48;
+    border-color: #3BBDBD;
+    color: #3BBDBD;
+    border-bottom: none;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+    background-color: #3BBDBD;
+    color: #E2F0D6;
+    font-size: large;
+    border-bottom: none;
+}
