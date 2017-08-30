@@ -6,6 +6,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
 
@@ -15,7 +16,7 @@
 <body>
 <header>
     <!-- Fixed navbar -->
-    <script src="resources/navBar.js"></script>
+    <script type="text/javascript" src="js/navBar.js"></script>
 </header>
 
 <div class="container-fluid">
@@ -35,15 +36,15 @@
             <h2><img src="images/icons/gamepad.png"> Games</h2>
             <p>Work in progress</p>
             <p>TODO: thumbnail clickable gallery, display game presentation when thumbnail is hit (with github link)</p>
-            <p>
-            <ul>
-                <li>Cotcot-Mazing</li>
-                <li>Modern-Pong</li>
-                <li>GameAssets</li>
-                <li>SpacePigFighter 1.0</li>
-                <li>Cotcot rescue</li>
-            </ul>
-            </p>
+            <div id="elastic_grid_demo">
+                <ul>
+                    <li>Cotcot-Mazing</li>
+                    <li>Modern-Pong</li>
+                    <li>GameAssets</li>
+                    <li>SpacePigFighter 1.0</li>
+                    <li>Cotcot rescue</li>
+                </ul>
+            </div>
         </div>
 
         <div class="tab-pane fade" id="project_general">
@@ -68,11 +69,19 @@
 
 
 <footer>
-    <script src="resources/footer.js"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
 </footer>
 
+<!--==================================================-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/scriptsToInclude.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/elastic_grid.js"></script>
+<script type="text/javascript" src="js/projectList.js"></script>
 
-<script src="resources/scriptsToInclude.js"></script>
 
 </body>
 </html>
