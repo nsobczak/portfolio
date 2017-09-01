@@ -6,10 +6,11 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/projectThumbnail.css">
     <link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
 
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 </head>
 
 
@@ -45,6 +46,57 @@
                     <li>Cotcot rescue</li>
                 </ul>
             </div>
+
+
+            <ul id="og-grid" class="og-grid">
+                <li>
+                    <a href="#" data-largesrc="images/large/birds.jpg"
+                       data-title="birds"
+                       data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+                        <img src="images/small/1.jpg" alt="img01"/>
+                    </a>
+
+                    <!--<div class="og-expander">-->
+                        <!--<div class="og-expander-inner">-->
+                            <!--<span class="og-close"></span>-->
+                            <!--<div class="og-fullimg">-->
+                                <!--<div class="og-loading"></div>-->
+                                <!--<img src="images/small/1.jpg">-->
+                            <!--</div>-->
+                            <!--<div class="og-details">-->
+                                <!--<h3>Veggies sunt bona vobis</h3>-->
+                                <!--<p>Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga-->
+                                    <!--ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.</p>-->
+                                <!--<a href="http://cargocollective.com/jaimemartinez/">Visit website</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </li>
+                <li>
+                    <a href="#" data-largesrc="images/large/squirrel.jpg"
+                       data-title="squirrel"
+                       data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+                        <img src="images/small/2.jpg" alt="img02"/>
+                    </a>
+
+                    <!--<div class="og-expander">-->
+                        <!--<div class="og-expander-inner">-->
+                            <!--<span class="og-close"></span>-->
+                            <!--<div class="og-fullimg">-->
+                                <!--<div class="og-loading"></div>-->
+                                <!--<img src="images/small/2.jpg">-->
+                            <!--</div>-->
+                            <!--<div class="og-details">-->
+                                <!--<h3>Veggies sunt bona vobis</h3>-->
+                                <!--<p>Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga-->
+                                    <!--ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.</p>-->
+                                <!--<a href="http://cargocollective.com/jaimemartinez/">Visit website</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+            </ul>
+
+
         </div>
 
         <div class="tab-pane fade" id="project_general">
@@ -75,13 +127,14 @@
 <!--==================================================-->
 <!-- Placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="js/scriptsToInclude.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="js/jquery.elastislide.js"></script>
-<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-<script type="text/javascript" src="js/classie.js"></script>
-<script type="text/javascript" src="js/elastic_grid.js"></script>
-<script type="text/javascript" src="js/projectList.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<script type="text/javascript" src="js/projectThumbnailManager.js"></script>
+<script>
+    $(function() {
+        Grid.init();
+    });
+</script>
 
 </body>
 </html>
