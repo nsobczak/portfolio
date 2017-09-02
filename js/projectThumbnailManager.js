@@ -161,9 +161,8 @@ $.fn.imagesLoaded = function (callback) {
     return deferred ? deferred.promise($this) : $this;
 };
 
-var Grid = (function () {
-    // grid selector
-    var $selector = '#og-grid',
+function createGrid(selector) {
+    var $selector = selector,
         // list of items
         $grid = $($selector),
         // the items
@@ -197,6 +196,9 @@ var Grid = (function () {
             easing: 'ease',
             showVisitButton: true
         };
+
+    // console.log('$activeTab : ' + $activeTab);
+    console.log('$selector : ' + $selector);
 
     function init(config) {
 
@@ -519,4 +521,7 @@ var Grid = (function () {
         addItems: addItems
     };
 
-})();
+};
+
+var Grid1 = createGrid('#og-grid_1');
+var Grid2 = createGrid('#og-grid_2');
