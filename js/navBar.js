@@ -45,13 +45,18 @@ document.write('\
     </li>\
     <li class='
 );
-if (currentPage === 'projects') document.write('"nav-item active"');
-else document.write('"nav-item"');
+if (currentPage === 'projects') document.write('"nav-item dropdown active"');
+else document.write('"nav-item dropdown"');
 
 
 document.write('\
                 >\
-                    <a class="nav-link" href="projects.html">Projects</a>\
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="projectsGame.html">Projects <span class="caret"></span></a></a>\
+                \
+                    <ul class="dropdown-menu">\
+                        <li><a href="projectsGame.html">Games</a></li>\
+                        <li><a href="projectsGeneral.html">General</a></li>\
+                    </ul>\
                 </li>\
                 <!-- <li class="nav-item"> -->\
                     <!-- <a class="nav-link" href="#">Contact</a> -->\
@@ -62,4 +67,6 @@ document.write('\
     </div>\
 </nav>'
 );
+
+
 

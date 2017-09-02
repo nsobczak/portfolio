@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas Sobczak</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/projectThumbnail.css">
+    <link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+</head>
+
+
+<body>
+<header>
+    <!-- Fixed navbar -->
+    <script type="text/javascript" src="js/navBar.js"></script>
+</header>
+
+<div class="container-fluid">
+
+    <h1>Projects page</h1>
+
+    <!--TODO: carousel-slider-->
+
+    <div class="tab-content col-xs-12 col-sm-12 col-lg-12" id="project-tab">
+
+        <div id="project_general">
+            <h2>General projects</h2>
+            <p>Work in progress</p>
+            <p>TODO: thumbnail clickable gallery, display id card when thumbnail is hit (with github link)</p>
+
+            <ul>
+                <li>Coupe de France</li>
+                <li>Auchampignon</li>
+                <li>Pure Sound</li>
+                <li>e-shopping</li>
+                <li>e-Holographer</li>
+            </ul>
+
+            <ul class="og-grid" id="og-grid_2">
+                <li>
+                    <a href="#" data-largesrc="images/large/birds.jpg"
+                       data-title="Coupe de France"
+                       data-description="Coupe de France">
+                        <img src="images/small/1.jpg" alt="img01"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-largesrc="images/large/squirrel.jpg"
+                       data-title="Auchampignon"
+                       data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+                        <img src="images/small/2.jpg" alt="img02"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-largesrc="images/large/squirrel.jpg"
+                       data-title="Pure Sound"
+                       data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+                        <img src="images/small/3.jpg" alt="img02"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-largesrc="images/large/twilight.jpg"
+                       data-title="e-shopping"
+                       data-description="e-shopping">
+                        <img src="images/small/4.jpg" alt="img02"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-largesrc="images/large/squirrel.jpg"
+                       data-title="e-Holographer"
+                       data-description="e-Holographer description game">
+                        <img src="images/small/5.jpg" alt="img02"/>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+    <script type="text/javascript" src="js/footer.js"></script>
+</footer>
+
+<!--==================================================-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/scriptsToInclude.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/projectThumbnailManager.js"></script>
+<script>
+    $(function () {
+        Grid2.init();
+    });
+</script>
+
+</body>
+</html>
