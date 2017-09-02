@@ -18,11 +18,30 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
     border-color: #3BBDBD;
 }
 
+.dropdown-menu > li {
+    background-color: #173D48;
+    border-color: #173D48;
+}
+
+.dropdown-menu > li > a {
+    color: #E2F0D6;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #173D48;
+}
+
+/*when clicked*/
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
     color: #3BBDBD;
-    text-decoration: none;
-    background-color: #E2F0D6; /*change color of links in drop down here*/
+}
+
+
+.navbar .navbar-nav > li.open > a:hover,
+.navbar .navbar-nav > li.open > a:focus {
+    background-color: #3BBDBD;
+    color: #E2F0D6;
 }
 
 .navbar-default .navbar-nav > li > a {
