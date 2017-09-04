@@ -1,3 +1,3 @@
 # Images size
 
-large images are 500x500
+large images are 1000x500

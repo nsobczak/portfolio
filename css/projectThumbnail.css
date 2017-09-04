@@ -48,7 +48,7 @@
 }
 
 .og-expander-inner {
-    padding: 50px 30px;
+    padding: 60px 30px;
     height: 100%;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .og-details {
-    padding: 0 40px 0 20px;
+    padding: 0 10px 0 20px;
 }
 
 .og-fullimg {
@@ -110,8 +110,8 @@
 
 .og-details h3 {
     font-weight: 300;
-    font-size: 52px;
-    padding: 40px 0 10px;
+    font-size: 50px;
+    padding: 10px 0 10px;
     margin-bottom: 10px;
     color: #173D54;
 }
