@@ -1,3 +1,8 @@
 # Images size
 
-large images are 1000x500
+large images are 16/9
+1280x720
+1366x768
+1920x1080
+2560x1440
+3840x2160
