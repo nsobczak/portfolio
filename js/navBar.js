@@ -55,7 +55,7 @@ document.write('\
                 \
                     <ul class="dropdown-menu">\
                         <li><a href="projectsGame.html">Games</a></li>\
-                        <li><a href="projectsGeneral.html">General</a></li>\
+                        <li><a href="projectsGeneral.html">General Projects</a></li>\
                     </ul>\
                 </li>\
                 <!-- <li class="nav-item"> -->\

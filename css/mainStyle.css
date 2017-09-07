@@ -47,9 +47,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #3BBDBD;
     color: #ecfafb;
     padding: 5px;
-    border-top: 2px solid #02F0D6;
-    border-left: 1px solid #02F0D6;
-    border-right: 1px solid #02F0D6;
+    /*border-left: 1px solid #02F0D6;*/
+    /*border-right: 1px solid #02F0D6;*/
     padding: 10px;
 }
 
