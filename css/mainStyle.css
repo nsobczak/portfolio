@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.li_link {
+    list-style-image: url(../images/icons/link.png);
+}
+
 /*======================================*/
 
 .nav-tabs {
@@ -97,4 +101,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #E2F0D6;
     font-size: large;
     border-bottom: none;
+}
+
+.tab-pane > ul > li {
+    list-style-image: url(../images/icons/skill.png);
 }
