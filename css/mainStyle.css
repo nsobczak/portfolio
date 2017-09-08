@@ -5,7 +5,7 @@ html {
 
 body {
     padding: 40px 0px 0px 0px;
-    color: black;
+    color: white;
     margin-top: 10px;
     margin-bottom: 80px;
     background-color: #173D54;
@@ -25,6 +25,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #E2F0D6;
+}
+
+.links-box {
+    padding: 6px 10px 8px 10px;
+    background-color: #3BBDBD;
 }
 
 .project-link {
