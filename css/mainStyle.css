@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .links-box {
     padding: 6px 10px 8px 10px;
     background-color: #155A6A;
-    border-radius: 1005px;
+    border-radius: 40px;
 }
 
 .project-link {
@@ -58,13 +58,9 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none;
 }
 
-.tab-content {
+.tab-content-parent {
     background-color: #3BBDBD;
-    color: #ecfafb;
-    padding: 5px;
-    /*border-left: 1px solid #02F0D6;*/
-    /*border-right: 1px solid #02F0D6;*/
-    padding: 10px;
+    padding: 15px 15px 15px 10px;
 }
 
 .nav-tabs > li > a {
@@ -90,8 +86,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: large;
 }
 
+/*===*/
+
+.nav-pills {
+    background-color: #3BBDBD;
+}
+
+.nav-stacked{
+    border-style: solid solid solid groove ;
+    border-radius: 0 20px 20px 0;
+    border-color: #155A6A;
+}
+
 .nav-pills > li > a {
     color: #173D48;
+    border-radius: 40px !important;
     border-bottom: none;
 }
 
@@ -115,12 +124,20 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none;
 }
 
-.tab-skills{
+.tab-content-child {
     background-color: #155A6A;
+    padding: 4px 10px 8px 10px;
+    border-radius: 40px;
+    margin: 0;
 }
 
 .tab-pane > ul > li {
     list-style-image: url(../images/icons/skill.png);
+}
+
+.tab-content-project{
+    background-color: #155A6A;
+    border-radius: 0 0 40px 40px;
 }
 
 /*======================================*/
