@@ -9,6 +9,7 @@ body {
     margin-top: 10px;
     margin-bottom: 80px;
     background-color: #173D54;
+    font-family: sans-serif;
 }
 
 .footer {
@@ -29,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .links-box {
     padding: 6px 10px 8px 10px;
-    background-color: #3BBDBD;
+    background-color: #155A6A;
+    border-radius: 1005px;
 }
 
 .project-link {
@@ -39,6 +41,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .li_link {
     list-style-image: url(../images/icons/link.png);
+}
+
+.li_link a {
+    color: #E2F0D6;
+}
+
+.li_link a:hover {
+    color: #3BBDBD;
 }
 
 /*======================================*/
@@ -70,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #173D48;
     border-color: #3BBDBD;
     color: #3BBDBD;
-    border-bottom: none;
 }
 
 .nav-tabs > li.active > a,
@@ -79,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #3BBDBD;
     color: #E2F0D6;
     font-size: large;
-    border-bottom: none;
 }
 
 .nav-pills > li > a {
@@ -101,12 +109,18 @@ h1, h2, h3, h4, h5, h6 {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
-    background-color: #3BBDBD;
+    background-color: #155A6A;
     color: #E2F0D6;
     font-size: large;
     border-bottom: none;
 }
 
+.tab-skills{
+    background-color: #155A6A;
+}
+
 .tab-pane > ul > li {
     list-style-image: url(../images/icons/skill.png);
 }
+
+/*======================================*/

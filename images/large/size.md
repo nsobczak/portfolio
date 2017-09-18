@@ -1,8 +1,8 @@
 # Images size
 
 large images are 16/9
+768x432
 1280x720
-1366x768
 1920x1080
 2560x1440
 3840x2160
