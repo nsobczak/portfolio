@@ -37,7 +37,6 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #3BBDBD;
 }
 
-
 .navbar .navbar-nav > li.open > a:hover,
 .navbar .navbar-nav > li.open > a:focus {
     background-color: #3BBDBD;
@@ -55,4 +54,20 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #3BBDBD;
+}
+
+.pull-left {
+    margin: 0 10px 0 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar-collapse {
+        max-height: none;
+    }
 }

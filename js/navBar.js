@@ -3,7 +3,7 @@ document.write('\
     <div class="container-fluid">\
 \
         <div class="navbar-header">\
-            <button class="navbar-toggle" type="button" data-toggle="collapse"\
+            <button class="pull-left navbar-toggle" type="button" data-toggle="collapse"\
                     data-target="#navbarSupportedContent"\
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">\
                 <span class="icon-bar"></span>\

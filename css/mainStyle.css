@@ -22,6 +22,7 @@ body {
     background-color: #E2F0D6;
 }
 
+
 /*======================================*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,8 +93,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #3BBDBD;
 }
 
-.nav-stacked{
-    border-style: solid solid solid groove ;
+.nav-stacked {
+    border-style: solid solid solid groove;
     border-radius: 0 20px 20px 0;
     border-color: #155A6A;
 }
@@ -135,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style-image: url(../images/icons/skill.png);
 }
 
-.tab-content-project{
+.tab-content-project {
     background-color: #155A6A;
     border-radius: 0 0 40px 40px;
 }
