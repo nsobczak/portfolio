@@ -57,7 +57,7 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 }
 
 .pull-left {
-    margin: 0 10px 0 10px;
+    margin: 10px;
 }
 
 @media (max-width: 767px) {
