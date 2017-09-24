@@ -32,7 +32,7 @@ else document.write('"nav-item"');
 
 document.write('\
                 >\
-        <a class="nav-link" href="index.html">Home (infos)<span class="sr-only"></span></a>\
+        <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>\
     </li>\
     <li class='
 );
