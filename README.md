@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio website
+Portfolio website : https://nsobczak.github.io/portfolio/
 
 ## Colors
 
@@ -11,5 +11,3 @@ Portfolio website
 - light blue : #a3f5eb
 - light yellow : #E2F0D6
 - orange : #F76F07
-
-
