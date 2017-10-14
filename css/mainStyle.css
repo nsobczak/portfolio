@@ -45,6 +45,19 @@ h1, h2, h3, h4, h5, h6 {
     list-style-image: url(../images/icons/linkb.png);
 }
 
+#li_link_github {
+    list-style-image: url(../images/icons/github.png);
+}
+
+#li_link_linkedin {
+    list-style-image: url(../images/icons/linkedin.png);
+}
+
+#li_link_playstore {
+    list-style-image: url(../images/icons/Google_Play.png);
+}
+
+
 .li_link a {
     color: #173D48;
 }
