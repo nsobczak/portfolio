@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     list-style-image: url(../images/icons/Google_Play.png);
 }
 
+#li_link_itchio {
+    list-style-image: url(../images/icons/itchio.png);
+}
+
 
 .li_link a {
     color: #173D48;
