@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/projectThumbnail.css">
     <link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/galleryStyle.css">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 </head>
@@ -27,43 +28,51 @@
         <div id="project_general">
             <h2><img src="images/icons/computer.png"> General projects</h2>
 
+            <div align="center">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="web">Web</button>
+                <button class="btn btn-default filter-button" data-filter="hardware">Hardware</button>
+                <button class="btn btn-default filter-button" data-filter="mobile">Mobile</button>
+                <button class="btn btn-default filter-button" data-filter="other">Others</button>
+            </div>
+
             <ul class="og-grid" id="og-grid_2">
-                <li>
+                <li class="filter web">
                     <a href="index.html" data-largesrc="images/large/Portfolio.png"
                        data-title="Portfolio"
                        data-description="Portfolio website.<br><strong>Creation date: </strong>2017<br><strong>Technos: </strong>html, css, javascript<br><strong>Team: </strong>1 people">
                         <img src="images/small/Portfolio.png" alt="Portfolio"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter hardware">
                     <a href="https://github.com/nsobczak/CoupeDeFrance" data-largesrc="images/large/RoboticCup.png"
                        data-title="French robotic cup"
                        data-description="Build a bot to take part to the french robotic cup.<br><strong>Creation date: </strong>2016/2017<br><strong>Technos: </strong>Arduino, C++<br><strong>Team: </strong>3 people">
                         <img src="images/small/RoboticCup.png" alt="RoboticCup"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter other">
                     <a href="https://github.com/nsobczak/Auchampignon" data-largesrc="images/large/Auchampignon_uml.png"
                        data-title="Auchampignon"
                        data-description="A professional database for a fictional enterprise.<br><strong>Creation date: </strong>2017<br><strong>Technos: </strong>SQL, UML<br><strong>Team: </strong>9 people">
                         <img src="images/small/database_logo.png" alt="database_logo"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter mobile">
                     <a href="https://github.com/nsobczak/Pure_Sound/releases" data-largesrc="images/large/PureSound.png"
                        data-title="Pure Sound"
                        data-description="Pure Sound is a music player for Androïd. It uses lastFM API to retrieve songs metadata.<br><strong>Creation date: </strong>2017<br><strong>Technos: </strong>Android<br><strong>Team: </strong>9 people">
                         <img src="images/small/Pure_sound.PNG" alt="Pure_sound"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter web">
                     <a href="https://github.com/nsobczak/e-shopping" data-largesrc="images/large/e-shopping_panier.png"
                        data-title="Geek Product"
                        data-description="Geek product is an e-shopping website.<br><strong>Creation date: </strong>2016<br><strong>Technos: </strong>php, html, css<br><strong>Team: </strong>16 people">
                         <img src="images/small/e-shopping_home.png" alt="e-shopping_home"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter hardware mobile">
                     <a href="https://github.com/nsobczak/e-Holographer/wiki"
                        data-largesrc="images/large/e-holographer.PNG"
                        data-title="e-Holographer"
@@ -71,7 +80,7 @@
                         <img src="images/small/e-holographer.PNG" alt="e-holographer"/>
                     </a>
                 </li>
-                <li><!--<a href='http://www.isen.fr/'>ISEN</a> -->
+                <li class="filter web"><!--<a href='http://www.isen.fr/'>ISEN</a> -->
                     <a href="http://crysteo.xyz/en_GB/" data-largesrc="images/large/site_crysteo.png"
                        data-title="Crysteo website"
                        data-description="Crysteo website. Crysteo is the ISEN school robotic club. <br><strong>Creation date: </strong>2015<br><strong>Technos: </strong>Wordpress<br><strong>Team: </strong>1 people">
@@ -93,9 +102,14 @@
 
 <!--==================================================-->
 <!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="js/scriptsToInclude.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<script type="text/javascript" src="js/scriptsToInclude.js"></script>
+
+<!--gallery filter-->
+<script type="text/javascript" src="js/galleryFilter.js"></script>
+
+<!--thumbnail grid-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/projectThumbnailManager.js"></script>
 <script>
     $(function () {
