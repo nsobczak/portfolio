@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/projectThumbnail.css">
     <link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/galleryStyle.css">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 </head>
@@ -27,9 +28,21 @@
         <div id="project_games">
             <h2><img src="images/icons/gamepad.png"> Games</h2>
 
+            <div align="center">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="fgame">Full games</button>
+                <button class="btn btn-default filter-button" data-filter="proto">Prototypes</button>
+                <button class="btn btn-default filter-button" data-filter="cli">Command line games</button>
+                <button class="btn btn-default filter-button" data-filter="other">Others</button>
+            </div>
+            <br/>
 
             <ul class="og-grid" id="og-grid_1">
-                <li>
+                <li class="filter fgame">
+                    <!--'<video controls loop="loop" width="400" height="300">-->
+                    <!--<source src="images/large/SampleVideo_1280x720_10mb.mp4" type="video/mp4" />-->
+                    <!--</video>'-->
+                    <!--data-largesrc="images/large/Restart-your-meal.png"-->
                     <a href="https://nsobczak.itch.io/restart-your-meal"
                        data-largesrc="images/large/Restart-your-meal.png"
                        data-title="Restart-your-meal"
@@ -38,11 +51,12 @@
                        <strong>Creation date: </strong>2017<br>
                        <strong>Technos: </strong>Unity, C#, Blender<br>
                        <strong>Platforms: </strong>Linux, Windows<br>
-                       <strong>Credits: </strong>Vincent Reynaert, Nicolas Sobczak">
+                       <strong>Credits: </strong>Vincent Reynaert, Nicolas Sobczak"
+                    >
                         <img src="images/small/Restart-your-meal.PNG" alt="GameOff2017"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter proto">
                     <a href="https://play.google.com/store/apps/details?id=com.Sobczak.XenoSpace"
                        data-largesrc="images/large/XenoSpace.png"
                        data-title="Xeno Space"
@@ -54,7 +68,7 @@
                         <img src="images/small/XenoSpace.png" alt="XenoSpace"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter fgame">
                     <a href="https://github.com/nsobczak/Arcance/releases"
                        data-largesrc="images/large/Arcance_InGame_screenshot.png"
                        data-title="Arcance"
@@ -66,7 +80,7 @@
                         <img src="images/small/Arcance.png" alt="Arcance"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter fgame">
                     <a href="https://github.com/nsobczak/Modern-Pong"
                        data-largesrc="images/large/ModernPongInGame.PNG"
                        data-title="Modern Pong"
@@ -78,7 +92,7 @@
                         <img src="images/small/ModernPong_classic_pong.PNG" alt="ModernPong"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter other">
                     <a href="https://github.com/nsobczak/GameAssets" data-largesrc="images/large/fence.png"
                        data-title="3D Game Assets"
                        data-description="3D Game Assets.<br>
@@ -87,7 +101,7 @@
                         <img src="images/small/3DGameAssets.png" alt="3DGameAssets"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter cli">
                     <a href="https://github.com/nsobczak/SpacePigFighter"
                        data-largesrc="images/large/SpacePigFighter.PNG"
                        data-title="Space Pig Fighter 1"
@@ -99,7 +113,7 @@
                         <img src="images/small/SpacePigFighter.PNG" alt="SpacePigFighter"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter proto">
                     <a href="https://play.google.com/store/apps/details?id=org.test.pouleapp"
                        data-largesrc="images/large/cotcot_rescue.png"
                        data-title="Cotcot Rescue"
@@ -111,7 +125,7 @@
                         <img src="images/small/cotcot_rescue.png" alt="cotcot_rescue"/>
                     </a>
                 </li>
-                <li>
+                <li class="filter cli">
                     <a href="https://github.com/nsobczak/tic-tac-toe" data-largesrc="images/large/tic-tac-toe.png"
                        data-title="tic-tac-toe"
                        data-description="tic-tac-toe is a command line game.<br><strong>Creation date: </strong>2015<br><strong>Technos: </strong>Python<br><strong>Credits: </strong>Nicolas Sobczak">
@@ -134,6 +148,12 @@
 
 <!--==================================================-->
 <!-- Placed at the end of the document so the pages load faster -->
+
+<!--gallery filter-->
+<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/galleryFilter.js"></script>
+
+<!--thumbnail grid-->
 <script type="text/javascript" src="js/scriptsToInclude.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
@@ -144,6 +164,7 @@
 //        Grid2.init();
     });
 </script>
+
 
 </body>
 </html>
