@@ -8,9 +8,12 @@
 
 .og-grid li {
     display: inline-block;
-    margin: 10px 5px 0 5px;
+    margin: 10px;
     vertical-align: top;
-    height: 250px;
+    height: 290px;
+    /*max-height: 300px;*/
+    background-color: #155A6A;
+    border-radius: 20px;
 }
 
 .og-grid li > a,
@@ -19,6 +22,8 @@
     outline: none;
     display: block;
     position: relative;
+
+    margin: 20px 10px 20px 10px;
 }
 
 .og-grid li.og-expanded > a::after {
@@ -163,34 +168,72 @@
 }
 
 @-webkit-keyframes loader {
-    0% { background: #ddd; }
-    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+    0% {
+        background: #ddd;
+    }
+    33% {
+        background: #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+    }
+    66% {
+        background: #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+    }
 }
 
 @-moz-keyframes loader {
-    0% { background: #ddd; }
-    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+    0% {
+        background: #ddd;
+    }
+    33% {
+        background: #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+    }
+    66% {
+        background: #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+    }
 }
 
 @keyframes loader {
-    0% { background: #ddd; }
-    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+    0% {
+        background: #ddd;
+    }
+    33% {
+        background: #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+    }
+    66% {
+        background: #ccc;
+        box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+    }
 }
 
 @media screen and (max-width: 830px) {
 
-    .og-expander h3 { font-size: 32px; }
-    .og-expander p { font-size: 13px; }
-    .og-expander a { font-size: 12px; }
+    .og-expander h3 {
+        font-size: 32px;
+    }
+
+    .og-expander p {
+        font-size: 13px;
+    }
+
+    .og-expander a {
+        font-size: 12px;
+    }
 
 }
 
 @media screen and (max-width: 650px) {
 
-    .og-fullimg { display: none; }
-    .og-details { float: none; width: 100%; }
+    .og-fullimg {
+        display: none;
+    }
+
+    .og-details {
+        float: none;
+        width: 100%;
+    }
 
 }
