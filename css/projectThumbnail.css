@@ -115,7 +115,6 @@
 
 .og-details h3 {
     font-weight: 300;
-    font-size: 50px;
     padding: 10px 0 10px;
     margin-bottom: 10px;
     color: #173D54;
@@ -123,14 +122,12 @@
 
 .og-details p {
     font-weight: 400;
-    font-size: 16px;
     line-height: 22px;
     color: #444;
 }
 
 .og-details a {
     font-weight: 700;
-    font-size: 16px;
     color: #999;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -209,21 +206,21 @@
     }
 }
 
-@media screen and (max-width: 830px) {
+/*@media screen and (max-width: 830px) {*/
 
-    .og-expander h3 {
-        font-size: 32px;
-    }
+    /*.og-expander h3 {*/
+        /*font-size: 32px;*/
+    /*}*/
 
-    .og-expander p {
-        font-size: 13px;
-    }
+    /*.og-expander p {*/
+        /*font-size: 13px;*/
+    /*}*/
 
-    .og-expander a {
-        font-size: 12px;
-    }
+    /*.og-expander a {*/
+        /*font-size: 12px;*/
+    /*}*/
 
-}
+/*}*/
 
 @media screen and (max-width: 650px) {
 

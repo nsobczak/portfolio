@@ -1,5 +1,5 @@
 .filter-button {
-    font-size: 18px;
+    font-size: large;
     border: 1px solid #a3f5eb;
     border-radius: 5px;
     text-align: center;
@@ -10,7 +10,7 @@
 }
 
 .filter-button:hover {
-    font-size: 18px;
+    font-size: large;
     border: 1px solid #a3f5eb;
     border-radius: 5px;
     text-align: center;
