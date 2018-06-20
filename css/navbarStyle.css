@@ -1,43 +1,56 @@
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #3BBDBD; /*Sets the text hover color on navbar*/
+.navbar-default {
+    background-color: #173D48;
+    color: #3BBDBD;
+    font-size: 1.2em;
+    border-bottom-width: 0px;
 }
 
-.navbar-header .navbar-brand, .navbar-header .navbar-brand:hover {
+/*title*/
+.navbar-header .navbar-brand,
+.navbar-header .navbar-brand:hover {
     color: #E2F0D6;
-    font-size: x-large;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-right-width: 1px;
+    border-color: #E2F0D6;
+    border-right-style: solid;
+    /*border-radius: 10px;*/
+    /*border-top-right-radius: 20px;*/
+    /*border-bottom-right-radius: 20px;*/
+
 }
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3BBDBD; /*Sets the text hover color on navbar*/
+    font-size: 1.1em;
+}
+
+/*active tab*/
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #173D48; /*BACKGROUND color for active*/
+    color: #173D48;
     background-color: #a3f5eb;
+    font-size: 1.1em;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a,
 .navbar-default .navbar-nav .open .dropdown-menu {
     background-color: #173D48;
     color: #E2F0D6;
+    font-size: inherit;
 }
 
+/*dropdown*/
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #173D48;
     color: #3BBDBD;
+    font-size: 1.1em;
 }
 
-.navbar-default {
-    background-color: #173D48;
-    border-color: #3BBDBD;
-}
-
-.dropdown-menu {
-    font-size: large;
-    background-color: #173D48;
-    color: #E2F0D6;
-}
-
-/*when clicked*/
+/*dropdown clicked*/
 .navbar .navbar-nav > li.open > a:hover,
 .navbar .navbar-nav > li.open > a:focus {
     background-color: #3BBDBD;
@@ -51,6 +64,8 @@
 .navbar-default .navbar-toggle {
     background-color: #E2F0D6;
     border-color: #3BBDBD;
+    padding: 14px;
+    margin: 10px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -70,5 +85,13 @@
 
     .navbar-collapse {
         max-height: none;
+    }
+
+    /*title*/
+    .navbar-header .navbar-brand,
+    .navbar-header .navbar-brand:hover {
+        /*color: #E2F0D6;*/
+        /*font-size: 0.8em;*/
+        border-right-width: 0px;
     }
 }
