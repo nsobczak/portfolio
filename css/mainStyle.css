@@ -84,8 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 /*======================================*/
 
 .nav-tabs {
-    background-color: #a3f5eb;
-    border-bottom: none;
+    font-size: 0.9em;
 }
 
 .tab-content-parent {
@@ -94,18 +93,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-tabs > li > a {
+    background-color: #a3f5eb;
     color: #173D48;
-    border-bottom: none;
-}
+    border-bottom: 10px;
+    border-width: 2px;
+    border-color: #173D48;
+    margin: 10px;
 
-.nav-tabs > li > a:focus {
-    border-bottom: none;
 }
 
 .nav-tabs > li > a:hover {
     background-color: #173D48;
     border-color: #3BBDBD;
     color: #3BBDBD;
+    margin-bottom: -1px;
 }
 
 .nav-tabs > li.active > a,
@@ -113,7 +114,27 @@ h1, h2, h3, h4, h5, h6 {
 .nav-tabs > li.active > a:hover {
     background-color: #3BBDBD;
     color: #E2F0D6;
-    font-size: large;
+    font-size: 1.1em;
+    margin: 10px;
+    margin-bottom: -1px;
+}
+
+@media (max-width: 767px) {
+    .nav-tabs > li > a {
+        margin: 0px;
+    }
+
+    .nav-tabs > li > a:hover {
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:focus,
+    .nav-tabs > li.active > a:hover {
+        margin: 0px;
+        margin-bottom: 5px;
+    }
 }
 
 /*===*/
@@ -131,18 +152,18 @@ h1, h2, h3, h4, h5, h6 {
 .nav-pills > li > a {
     color: #173D48;
     border-radius: 40px !important;
-    border-bottom: none;
+    /*border-bottom: none;*/
 }
 
 .nav-pills > li > a:focus {
-    border-bottom: none;
+    /*border-bottom: none;*/
 }
 
 .nav-pills > li > a:hover {
     background-color: #173D48;
     border-color: #3BBDBD;
     color: #3BBDBD;
-    border-bottom: none;
+    /*border-bottom: none;*/
 }
 
 .nav-pills > li.active > a,
@@ -150,8 +171,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-pills > li.active > a:hover {
     background-color: #155A6A;
     color: #E2F0D6;
-    font-size: large;
-    border-bottom: none;
+    font-size: 1.1em;
+    /*border-bottom: none;*/
 }
 
 .tab-content-child {

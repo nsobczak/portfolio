@@ -21,9 +21,12 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:focus,
+/*!*dropdown*!*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
     color: #3BBDBD; /*Sets the text hover color on navbar*/
-    font-size: 1.1em;
+    font-size: inherit;
 }
 
 /*active tab*/
@@ -40,14 +43,6 @@
     background-color: #173D48;
     color: #E2F0D6;
     font-size: inherit;
-}
-
-/*dropdown*/
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-color: #173D48;
-    color: #3BBDBD;
-    font-size: 1.1em;
 }
 
 /*dropdown clicked*/
