@@ -71,12 +71,20 @@
 .navbar-default .navbar-toggle:focus {
     background-color: #E2F0D6;
     border-color: #3BBDBD;
-    padding: 14px;
-    margin: 10px;
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
+    align-content: center;
     background-color: #3BBDBD;
+    padding: 4px;
+    margin: 10px 0px 10px 0px;
+    width: 78px;
+    border-radius: 10px;
+    border-style: solid;
 }
 
 .pull-left {
@@ -85,7 +93,7 @@
 
 @media (max-width: 767px) {
     body {
-        padding: 52px 0px 0px 0px;
+        padding: 106px 0px 0px 0px;
     }
 
     /* === navbar === */
@@ -128,10 +136,16 @@
     }
 }
 
-@media (max-width: 462px) {
+@media (max-width: 500px) {
     /* === title === */
     .navbar-header .navbar-brand,
     .navbar-header .navbar-brand:hover {
         font-size: 0em;
     }
+
+    /*.navbar-default .navbar-toggle,*/
+    /*.navbar-default .navbar-toggle:hover,*/
+    /*.navbar-default .navbar-toggle:focus {*/
+        /*margin: 8px 8px 8px 20px;*/
+    /*}*/
 }
