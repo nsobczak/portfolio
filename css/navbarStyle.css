@@ -66,6 +66,7 @@
 }
 
 /* === Mobile version === */
+/*square icon*/
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -74,9 +75,9 @@
     margin: 8px;
     width: 100px;
     height: 100px;
-    padding: 10px 10px 10px 10px;
+    padding: 9px 10px 9px 10px;
 }
-
+/*bars in square*/
 .navbar-default .navbar-toggle .icon-bar {
     align-content: center;
     background-color: #3BBDBD;
