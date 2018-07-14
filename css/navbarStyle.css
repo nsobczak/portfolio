@@ -1,9 +1,12 @@
+/*TODO: change dropdown small arrow*/
+/*TODO: in mobile mode, make dropdown list max height bigger*/
 /* === navbar === */
 .navbar-default {
     background-color: #173D48;
     color: #3BBDBD;
     font-size: 1.2em;
     border-bottom-width: 0px;
+    box-shadow: 0px 5px 10px 1px #0f2930;
 }
 
 /* === title === */
