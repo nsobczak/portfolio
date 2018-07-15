@@ -1,17 +1,34 @@
+.project_page{
+    margin: 30px 10px 0px 10px;
+}
+
+.filter-head{
+    text-align: center;
+    vertical-align: center;
+    color: #173D48;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #155A6A;
+    border-style: solid;
+    padding: 10px;
+    background-color: #E2F0D6;
+}
+
 .filter-button {
-    font-size: large;
-    border: 1px solid #a3f5eb;
+    font-size: 0.9em;
+    border: 1px solid #173D48;
     border-radius: 5px;
     text-align: center;
-    color: #173D48;
-    background-color: #E2F0D6;
-    margin-bottom: 30px;
+    color: #173D48 ;
+    background-color: #c4f2ec ;
+    margin-bottom: 0px;
 
 }
 
-.filter-button:hover {
-    font-size: large;
-    border: 1px solid #a3f5eb;
+.filter-button:hover,
+.filter-button:active:hover,
+.filter-button:focus:hover{
+    border: 1px solid #c4f2ec;
     border-radius: 5px;
     text-align: center;
     color: #E2F0D6;
@@ -19,7 +36,9 @@
 
 }
 
-.btn-default:active .filter-button:active .btn-default:focus .filter-button:focus{
-    background-color: #42B32F;
-    color: red;
+/*todo: change background from active*/
+.filter-button:focus
+{
+    background-color: #155A6A;
+    color: #E2F0D6;
 }

@@ -8,6 +8,6 @@ Portfolio website : https://nsobczak.github.io/portfolio/
 - darker blue : #173D48
 - dark blue : #155A6A
 - blue : #3BBDBD
-- light blue : #a3f5eb
+- light blue : #c4f2ec
 - light yellow : #E2F0D6
 - orange : #F76F07
