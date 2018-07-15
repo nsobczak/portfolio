@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .links-box {
     margin: 40px 1px 40px 0;
-    padding: 6px 10px 8px 10px;
+    padding: 6px 10px 20px 10px;
     background-color: #3BBDBD;
     border-radius: 40px;
 }
@@ -52,26 +52,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .li_link {
-    list-style-image: url(../images/icons/linkb.png);
-    line-height: 1.6em ;
+    /*list-style-image: url(../images/icons/linkb.png);*/
+    list-style-type: none;
+    line-height: 0.9em ;
+    text-align: center;
 }
 
-/*TODO: change link into icons*/
-#li_link_github {
-    list-style-image: url(../images/icons/github.png);
+.li_link img {
+    height: 100px;
+    margin: 18px 0px 10px 0px;
 }
 
-#li_link_linkedin {
-    list-style-image: url(../images/icons/linkedin.png);
-}
+/*#li_link_github {*/
+    /*list-style-image: url(../images/logo/github.png);*/
+/*}*/
 
-#li_link_playstore {
-    list-style-image: url(../images/icons/Google_Play.png);
-}
+/*#li_link_linkedin {*/
+    /*list-style-image: url(../images/icons/linkedin.png);*/
+/*}*/
 
-#li_link_itchio {
-    list-style-image: url(../images/icons/itchio.png);
-}
+/*#li_link_playstore {*/
+    /*list-style-image: url(../images/icons/Google_Play.png);*/
+/*}*/
+
+/*#li_link_itchio {*/
+    /*list-style-image: url(../images/icons/itchio.png);*/
+/*}*/
 
 
 .li_link a {
