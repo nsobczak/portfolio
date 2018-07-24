@@ -114,7 +114,7 @@
     .navbar-default {
         background-color: #173D48;
         color: #3BBDBD;
-        font-size: 3em;
+        font-size: 2.6em;
         border-bottom-width: 0px;
     }
 
@@ -122,7 +122,7 @@
     .navbar-header .navbar-brand,
     .navbar-header .navbar-brand:hover {
         /*color: #E2F0D6;*/
-        font-size: 0.5em;
+        font-size: 0em;
         border-right-width: 0px;
     }
 
@@ -130,26 +130,26 @@
     .navbar-default .navbar-nav > li > a,
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
-        padding: 40px 0px 40px 10px;
+        padding: 34px 0px 34px 10px;
     }
 
     /*dropdown*/
     .navbar-default .navbar-nav .open .dropdown-menu,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        padding: 40px 0px 40px 18px;
+        padding: 34px 0px 34px 18px;
     }
 }
 
-@media (max-width: 500px) {
-    /* === title === */
-    .navbar-header .navbar-brand,
-    .navbar-header .navbar-brand:hover {
-        font-size: 0em;
-    }
-
-    /*.navbar-default .navbar-toggle,*/
-    /*.navbar-default .navbar-toggle:hover,*/
-    /*.navbar-default .navbar-toggle:focus {*/
-        /*margin: 8px 8px 8px 20px;*/
+/*@media (max-width: 500px) {*/
+    /*!* === title === *!*/
+    /*.navbar-header .navbar-brand,*/
+    /*.navbar-header .navbar-brand:hover {*/
+        /*font-size: 0em;*/
     /*}*/
-}
+
+    /*!*.navbar-default .navbar-toggle,*!*/
+    /*!*.navbar-default .navbar-toggle:hover,*!*/
+    /*!*.navbar-default .navbar-toggle:focus {*!*/
+        /*!*margin: 8px 8px 8px 20px;*!*/
+    /*!*}*!*/
+/*}*/
