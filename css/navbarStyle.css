@@ -95,11 +95,7 @@
     margin: 10px;
 }
 
-@media screen and (max-width: 767px) {
-    body {
-        padding: 106px 0px 0px 0px;
-    }
-
+@media (max-width: 767px) {
     /* === navbar === */
     .navbar-fixed-top {
         position: absolute;
