@@ -55,7 +55,7 @@ document.write('\
                 \
                     <ul class="dropdown-menu">\
                         <li><a href="projectsGame.html">Games</a></li>\
-                        <li><a href="projectsGeneral.html">General Projects</a></li>\
+                        <li><a href="projectsGeneral.html">Other</a></li>\
                     </ul>\
                 </li>\
                 <!-- <li class="nav-item"> -->\
@@ -67,6 +67,3 @@ document.write('\
     </div>\
 </nav>'
 );
-
-
-
